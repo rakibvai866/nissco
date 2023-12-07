@@ -1,0 +1,190 @@
+@media (max-width: 575.98px) {
+    #navber .navbar-expand-lg .navbar-nav .dropdown-menu {
+        transform: translateX(0%);
+        width: 100%;
+    }
+    .navbar-light .navbar-toggler {
+        position: inherit !important;
+        left: 0% !important;
+    }
+    .navbar-collapse {
+        z-index: 9999;
+        background: #fff;
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    #navber .btn_form {
+        display: none !important;
+    }
+
+    .category_title h4 {
+        right: -71%;
+    }
+
+    .category_title::before {
+        width: 71%;
+    }
+
+    #category img {
+        border-radius: 40px;
+    }
+
+    #c_profile h3 {
+        font-size: 30px;
+    }
+
+    #c_profile p {
+        font-size: 14px;
+        height: 90px;
+        padding-right: 10px;
+    }
+
+    #authentication .Ath_btn a {
+        margin: 0 5px;
+        border-radius: 5px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-size: 13px;
+    }
+
+    #footer {
+        overflow: hidden;
+    }
+
+    #footer a {
+        display: inline-block;
+    }
+
+    #footer .f_flex {
+        display: block;
+    }
+
+    #about .about_nav {
+        position: inherit;
+        width: 94%;
+    }
+
+    #about_c_profile a:nth-last-child(1) {
+        margin-bottom: 30px;
+    }
+
+    #about #about_c_profile,
+    #about_trade,
+    #about_production {
+        margin-left: 10px;
+    }
+
+    #blog .blog_content {
+        flex-direction: column;
+    }
+
+    #blog .blog_content .card {
+        height: 271px;
+    }
+
+    #blog .post {
+        margin-top: 40px;
+    }
+
+    #blog .post h3 {
+        font-size: 2rem;
+    }
+
+    #product .p_all_dtails .p-nav-pre-arrow {
+        left: 79%;
+    }
+
+    #product .p_all_dtails .besic_info {
+        padding: 5px;
+    }
+
+    #product .p_all_dtails .product_description {
+        padding: 5px;
+    }
+
+    #product .prod_zoom {
+        margin: auto !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #footer {
+        overflow: hidden;
+    }
+
+    #about .about_nav {
+        position: inherit;
+        width: 94%;
+    }
+
+    #about_c_profile a:nth-last-child(1) {
+        margin-bottom: 30px;
+    }
+
+    #about #about_c_profile,
+    #about_trade,
+    #about_production {
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .navbar-light .navbar-toggler {
+        position: absolute;
+        left: 50%;
+    }
+
+    #navber .btn_form {
+        position: absolute;
+        right: 0;
+    }
+
+    .navbar-collapse {
+        z-index: 9999;
+        background: #f8f9fa;
+    }
+    #navber .navbar-expand-lg .navbar-nav .dropdown-menu {
+        transform: translateX(0%);
+        width: 100%;
+    }
+    .navbar-collapse {
+        z-index: 9999;
+        background: #fff;
+        padding: 0px 20px;
+        text-align: center;
+    }
+
+    #footer {
+        overflow: hidden;
+    }
+
+    #about .about_nav {
+        position: inherit;
+        width: 98%;
+    }
+
+    #about_c_profile a:nth-last-child(1) {
+        margin-bottom: 30px;
+    }
+
+    #about #about_c_profile,
+    #about_trade,
+    #about_production {
+        margin-left: 10px;
+    }
+
+    #blog .blog_content .card {
+        height: 308px;
+    }
+
+    #product .p_all_dtails .p-nav-pre-arrow {
+        left: 91%;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    #product .p_all_dtails .p-nav-pre-arrow {
+        left: 94%;
+    }
+}

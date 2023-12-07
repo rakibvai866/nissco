@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NISSCO</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/slick-theme.css">
+    <link rel="stylesheet" href="assets/css/jquery.exzoom.css">
+    <link rel="stylesheet" href="assets/css/mediaQuery.css">
+</head>
+
+<body>
+
+    <!--
+    - HEADER
+  -->
+
+    <section id="navber">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-0">
+            <a class="navbar-brand" href="index.html">
+                <img class="header_logo" src="assets/images/logo/logo.png" alt="logo">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="../index.html">Home</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                <a class="nav-link text-dark" aria-current="page" href="#c_profile">Contact</a>
+            </li> -->
+                    <li class="nav-item dropdown dropdown-mega position-static me-2">
+                        <a class="nav-link text-dark dropdown-toggle" id="navberDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false" data-bs-auto-close="outside"
+                            href="#">drop</a>
+                        <div class="dropdown-menu shadow">
+                            <div class="mega-content px-md-4 py-md-4">
+                                <div class="container-fluid">
+                                    <div class="row">
+                                        <div class="col-lg-4 col-sm-6 py4">
+                                            <div class="list-group">
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 py4">
+                                            <div class="list-group">
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-4 col-sm-6 py4">
+                                            <div class="list-group">
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                                <a class="list-group-item dropdown_content" href="#">
+                                                    <h5>Responsive Design</h5>
+                                                    <p>adapt to all devices</p>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-dark" href="aboutus.html">about</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-dark" href="blog.html">blog</a>
+                    </li>
+                    <li class="nav-item me-2">
+                        <a class="nav-link text-dark" href="product.html">product</a>
+                    </li>
+                </ul>
+
+            </div>
+            <form class="btn_form d-flex">
+                <button class="btn btn-primary" type="submit">Inquire Now !</button>
+            </form>
+        </nav>
+    </section>
+
+    <section id="product">
+        <div class="row">
+            <div class="col-lg-4 col prod_zoom">
+                <div class="exzoom" id="exzoom">
+                    <!-- Images -->
+                    <div class="exzoom_img_box">
+                        <ul class='exzoom_img_ul'>
+                            <li><img src="assets/images/1.jpg" /></li>
+                            <li><img src="assets/images/2.jpg" /></li>
+                            <li><img src="assets/images/3.jpg" /></li>
+                            <li><img src="assets/images/4.jpg" /></li>
+                        </ul>
+                    </div>
+                    <!-- <a href="https://www.jqueryscript.net/tags.php?/Thumbnail/">Thumbnail</a> Nav-->
+                    <div class="exzoom_nav"></div>
+                    <!-- Nav Buttons -->
+                    <p class="exzoom_btn">
+                        <a href="javascript:void(0);" class="exzoom_prev_btn">
+                            < </a>
+                                <a href="javascript:void(0);" class="exzoom_next_btn"> > </a>
+                    </p>
+                </div>
+                <div class="p_social_link">
+                    <p><i class="far fa-heart"></i><span>Favorites</span> | <i class="fal fa-share-alt"></i>
+                        <span>Share</span><span class="social_icon"><i class="fab fa-facebook-square text-primary"></i>
+                            <i class="fab fa-twitter-square text-info"></i></span>
+                    </p>
+                </div>
+
+            </div>
+            <div class="col-lg-8">
+                <div class="product_content">
+                    <h3>Disposable Cup′ S Lid Thermoforming Machine for Pet, PS Material </h3>
+                    <div class="p_price_box">
+                        <div class="box_heading">
+                            <span>Reference FOB Price</span><span><a href="#">Get Latest Price <i
+                                        class="far fa-chevron-right"></i></a></span>
+                        </div>
+                        <div class="box_content">
+                            <h4><span class="text-danger fw-bold">US $24,000-28,000</span> / Set <b>|</b> <span
+                                    class="text-dark">1 Set</span> (Min. Order) </h4>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="p_disc">
+                        <div class="content_flex">
+                            <h6 class="fw-bold">Warranty:</h6>
+                            <p>1year</p>
+                        </div>
+                        <div class="content_flex">
+                            <h6 class="fw-bold">Warranty:</h6>
+                            <p>1year</p>
+                        </div>
+                        <div class="content_flex">
+                            <h6 class="fw-bold">Warranty:</h6>
+                            <p>1year</p>
+                        </div>
+                        <hr>
+                        <div class="content_flex">
+                            <h6 class="fw-bold">Customization:</h6>
+                            <p style="color: #adb5bd"> Available <b>|</b> <span><a href="#"><i
+                                            class="fal fa-edit"></i>Customized Request </a></span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content_tab">
+            <div class="row">
+                <div class="tabs">
+                    <div class="row">
+                        <ul class="nav nav-tabs" id="myTab" role="tablist">
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link active" id="home-tab" data-bs-toggle="tab"
+                                    data-bs-target="#home" type="button" role="tab" aria-controls="home"
+                                    aria-selected="true">Home</button>
+                            </li>
+                            <li class="nav-item" role="presentation">
+                                <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile"
+                                    type="button" role="tab" aria-controls="profile"
+                                    aria-selected="false">Profile</button>
+                            </li>
+                        </ul>
+                        <div class="tab-content" id="myTabContent">
+                            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                <div class="p_all_dtails">
+                                    <!-- nav Part Start -->
+                                    <div class="row">
+                                        <nav class="nav p_nav_slide">
+                                            <a class="nav-link p_nav" href="#besic_info">Overview</a>
+                                            <a class="nav-link p_nav" href="#product_description">Details</a>
+                                            <a class="nav-link p_nav" href="#feature">Feature</a>
+                                            <a class="nav-link p_nav" href="#technical">Technical Parameters</a>
+                                            <a class="nav-link p_nav" href="#service">Our Services</a>
+                                            <a class="nav-link p_nav" href="#shipping">Packaging Shipping</a>
+                                            <a class="nav-link p_nav" href="#information">Company Information</a>
+                                        </nav>
+                                    </div>
+                                    <!-- nav part End -->
+                                    <div class="besic_info" id="besic_info">
+                                        <h3>Basic Info.</h3>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <table class="table table-bordered">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="background-color: #f8fafc;">Model NO.</td>
+                                                            <td style="color: #666;">PPBG-500</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="background-color: #f8fafc;">Max. Forming Depth
+                                                            </td>
+                                                            <td style="color: #666;">50mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="background-color: #f8fafc;">Main Motor Power</td>
+                                                            <td style="color: #666;">3kw</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                            <div class="col-lg-6">
+                                                <table class="table table-bordered">
+                                                    <tbody>
+                                                        <tr>
+                                                            <td style="background-color: #f8fafc;">Model NO.</td>
+                                                            <td style="color: #666;">PPBG-500</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="background-color: #f8fafc;">Max. Forming Depth
+                                                            </td>
+                                                            <td style="color: #666;">50mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <td style="background-color: #f8fafc;">Main Motor Power</td>
+                                                            <td style="color: #666;">3kw</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="product_description" id="product_description">
+                                        <h3>Product Description</h3>
+                                        <span>Details</span>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <img src="assets/images/product_disc.webp" width="100%"
+                                                    alt="product_desc">
+                                            </div>
+                                            <div class="text_posi col-lg-6">
+                                                <h4>Heating Station</h4>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <img src="assets/images/product_disc.webp" width="100%"
+                                                    alt="product_desc">
+                                            </div>
+                                            <div class="text_posi col-lg-6">
+                                                <h4>Heating Station</h4>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <img src="assets/images/product_disc.webp" width="100%"
+                                                    alt="product_desc">
+                                            </div>
+                                            <div class="text_posi col-lg-6">
+                                                <h4>Heating Station</h4>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-6">
+                                                <img src="assets/images/product_disc.webp" width="100%"
+                                                    alt="product_desc">
+                                            </div>
+                                            <div class="text_posi col-lg-6">
+                                                <h4>Heating Station</h4>
+                                            </div>
+                                        </div>
+
+                                        <span id="feature" style="margin-top: 30px;">Feature</span>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <p>1. It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                                <p>1. It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                                <p>1. It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                            </div>
+                                        </div>
+
+                                        <span id="technical" style="margin-top: 30px;">Technical Parameters</span>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <table class="table table-bordered">
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Model NO.</td>
+                                                            <td>PPBG-500</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Max. Forming Depth</td>
+                                                            <td>50mm</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Main Motor Power</td>
+                                                            <td>3kw</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <span id="service" style="margin-top: 30px;">Our Services</span>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <p>1. It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                                <p>1. It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                                <p>1. It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                            </div>
+                                        </div>
+
+                                        <span id="shipping" style="margin-top: 30px;">Packaging Shipping</span>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <img src="assets/images/product_disc.webp" width="100%"
+                                                    alt="product_desc">
+                                            </div>
+                                        </div>
+
+                                        <span id="information" style="margin-top: 30px;">Company Information</span>
+                                        <hr>
+                                        <div class="row">
+                                            <div class="col-lg-12">
+                                                <p>It can produce PVC, PS, PET etc. All kinds of covers.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                <section id="about">
+                                    <div class="row">
+                                        <div class="col-lg-12 col-12">
+                                            <div id="about_c_profile">
+                                                <h3>Company Profile</h3>
+                                                <div class="row">
+                                                    <div class="col-lg-4">
+                                                        <div class="row">
+                                                            <div class="about_cp_slider">
+                                                                <div class="image">
+                                                                    <img src="assets/images/cp_image.webp"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                                <div class="image">
+                                                                    <img src="assets/images/cp_image.webp"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                                <div class="image">
+                                                                    <img src="assets/images/cp_image.webp"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <div class="row">
+                                                            <a href="#" type="button"
+                                                                class="btn text-center list-group-item list-group-item-action">A
+                                                                third button item</a>
+                                                            <a href="#" type="button"
+                                                                class="btn text-center list-group-item list-group-item-action">A
+                                                                fourth button item</a>
+                                                        </div>
+                                                    </div>
+                                                    <div class="content col-lg-8">
+                                                        <div class="content_flex">
+                                                            <h6><i class="far fa-check"></i>Business Type:</h6>
+                                                            <p>Manufacturer/Factory & Trading Company </p>
+                                                        </div>
+                                                        <div class="content_flex">
+                                                            <h6><i class="far fa-check"></i>Number of Employees:</h6>
+                                                            <p>24</p>
+                                                        </div>
+                                                        <div class="content_flex">
+                                                            <h6><i class="far fa-check"></i>Year of Establishment:</h6>
+                                                            <p> 2021-01-05 </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+                                                    <div class="cp_disc">
+                                                        <p>Wenzhou Ruinuo Machinery Co., Ltd. is located in Wenzhou city
+                                                            Pingyang county Wanquan town which established a modern
+                                                            production base, and our enterprise is a collection of
+                                                            scientific research, manufacturing, sales and service as one
+                                                            of the high-tech enterprises. Ruinuo Machinery Co., Ltd is
+                                                            not only a professional manufacturer of paper products
+                                                            machinery, but also an advocate of environmental protection.
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="about_trade">
+                                                <h3>Trade Capacity</h3>
+                                                <div class="row">
+                                                    <div class="content_flex">
+                                                        <h6><i class="far fa-check"></i>Business Type:</h6>
+                                                        <p>Manufacturer/Factory & Trading Company </p>
+                                                    </div>
+                                                    <div class="content_flex">
+                                                        <h6><i class="far fa-check"></i>Number of Employees:</h6>
+                                                        <p>24</p>
+                                                    </div>
+                                                    <div class="content_flex">
+                                                        <h6><i class="far fa-check"></i>Year of Establishment:</h6>
+                                                        <p> 2021-01-05 </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="about_production">
+                                                <h3>Production Capacity</h3>
+                                                <div class="row">
+                                                    <div class="content_flex">
+                                                        <h6>Business Type:</h6>
+                                                        <p>Manufacturer/Factory & Trading Company </p>
+                                                    </div>
+                                                    <div class="content_flex">
+                                                        <h6>Number of Employees:</h6>
+                                                        <p>24</p>
+                                                    </div>
+                                                    <div class="content_flex">
+                                                        <h6>Year of Establishment:</h6>
+                                                        <p> 2021-01-05 </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                            <div id="about_production">
+                                                <h3>Production Capacity</h3>
+                                                <div class="row">
+                                                    <div class="col-lg-12">
+                                                        <div class="product_cp_slider">
+                                                            <div class="image">
+                                                                <div>
+                                                                    <img src="assets/images/cp_image.webp" width="100%"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="image">
+                                                                <div>
+                                                                    <img src="assets/images/cp_image.webp" width="100%"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="image">
+                                                                <div>
+                                                                    <img src="assets/images/cp_image.webp" width="100%"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="image">
+                                                                <div>
+                                                                    <img src="assets/images/cp_image.webp" width="100%"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                            </div>
+                                                            <div class="image">
+                                                                <div>
+                                                                    <img src="assets/images/cp_image.webp" width="100%"
+                                                                        alt="cp_image">
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!--
+    - FOOTER
+  -->
+
+    <section id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="f_category">
+                    <div class="f_flex text-center"><a href="#">Hot Products</a> | <a href="#">China Products</a> | <a
+                            href="#"> China Wholesale | <a href="#">Hot Products</a> | <a href="#">China Products</a> |
+                            <a href="#"> China Wholesale</a></div>
+                </div>
+                <div class="f_language">
+                    <div class="f_flex text-center"><a href="#">English</a> | <a href="#">Bangla</a> | <a
+                            href="#">Arabic</a> | <a href="#">English</a> | <a href="#">Bangla</a> | <a
+                            href="#">Arabic</a></div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="f_copyright">
+                    <div class="f_flex text-center"> Copyright © 1998-2022 Focus <a href="#">Technology Co., Ltd.</a>
+                        All Rights Reserved. | <a href="#">User Agreement</a> | <a href="#">Declaration</a> | <a
+                            href="#">Privacy Policy</a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="assets/js/jquery-3.6.1.min.js"></script>
+    <script src="assets/js/jquery-migrate.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <!-- <script src="../assets/js/bootstrap.min.js"></script> -->
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/Font-Awesome.js"></script>
+    <script src="assets/js/jquery.exzoom.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>
